@@ -14,6 +14,7 @@ public class HelloWorld {
 	 */
 	public void sayhi(){
 		System.out.println("sayhi的方法......!");
+		System.out.println("aaabccddd");
 	}
 
 }
