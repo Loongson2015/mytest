@@ -1,5 +1,7 @@
 package test;
 
+import org.junit.Test;
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
@@ -15,6 +17,14 @@ public class HelloWorld {
 	public void sayhi(){
 		System.out.println("sayhi的方法......!");
 		System.out.println("aaabccddd");
+	}
+
+	/**
+	 * 这是个单元测试
+	 */
+	@Test
+	public void fun1(){
+		System.out.println("8888999");
 	}
 
 }
